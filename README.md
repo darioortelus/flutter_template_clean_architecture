@@ -8,12 +8,12 @@ This repository contains a Flutter project template with Clean Architecture, whi
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/darioortelus/flutter-template.git
+git clone https://github.com/darioortelus/flutter-template-clean-architecture.git
 ```  
 3. **Install Dependencies**
 Navigate to the project directory and run the following command to install dependencies:
 ```bash
-cd flutter-template
+cd flutter-template-clean-architecture
 ```
 ```bash
 flutter pub get
