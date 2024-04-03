@@ -12,7 +12,9 @@ git clone https://github.com/darioortelus/flutter-template.git
 ```  
 3. **Install Dependencies**
 Navigate to the project directory and run the following command to install dependencies:
-cd flutter-template-clean-architecture
+```bash
+cd flutter-template
+```
 ```bash
 flutter pub get
 ```
@@ -42,40 +44,6 @@ Add additional documentation, such as code style guides, contribution rules, and
 ## Project Structure
 
 The project follows a file structure organized according to Clean Architecture principles. Make sure to review the project structure and understand the responsibility of each directory and file before making modifications.
-
-flutter-template/
-|-- android/
-|-- ios/
-|-- lib/
-| |-- data/
-| | |-- repositories/
-| | | |-- user_repository.dart
-| | | |-- product_repository.dart
-| | |-- datasources/
-| | |-- remote/
-| | | |-- user_remote_datasource.dart
-| | | |-- product_remote_datasource.dart
-| | |-- local/
-| | |-- user_local_datasource.dart
-| | |-- product_local_datasource.dart
-| |-- domain/
-| | |-- entities/
-| | | |-- user.dart
-| | | |-- product.dart
-| | |-- repositories/
-| | |-- user_repository.dart
-| | |-- product_repository.dart
-| |-- presentation/
-| |-- screens/
-| | |-- home_screen.dart
-| | |-- profile_screen.dart
-| |-- widgets/
-| |-- custom_button.dart
-| |-- drawer_menu.dart
-|-- test/
-|-- pubspec.yaml
-|-- README.md
-
 
 ## Contributions
 
